@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C35E78427A95F810040C99E /* RefeicaoDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C35E78327A95F810040C99E /* RefeicaoDao.swift */; };
+		2C35E78627A96FD30040C99E /* itemDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C35E78527A96FD30040C99E /* itemDao.swift */; };
+		2C3892FB279EEC030060B5AA /* RefeicoesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3892FA279EEC030060B5AA /* RefeicoesTableViewController.swift */; };
+		2C56016D27A2C38A0031087A /* AdicionarItensViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C56016B27A2C38A0031087A /* AdicionarItensViewController.swift */; };
+		2C56016E27A2C38A0031087A /* AdicionarItensViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C56016C27A2C38A0031087A /* AdicionarItensViewController.xib */; };
+		2C57D36F279CAAE700F4C583 /* Refeicao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C57D36E279CAAE700F4C583 /* Refeicao.swift */; };
+		2C57D371279CAC1300F4C583 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C57D370279CAC1300F4C583 /* Item.swift */; };
+		2C9A556627A4643E004D8B45 /* Alerta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9A556527A4643E004D8B45 /* Alerta.swift */; };
+		2C9C1DB727A817DB002F9B8C /* RemoveRefeicaoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9C1DB627A817DB002F9B8C /* RemoveRefeicaoViewController.swift */; };
 		2CCF2961279997C100810998 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCF2960279997C100810998 /* AppDelegate.swift */; };
 		2CCF2963279997C100810998 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCF2962279997C100810998 /* SceneDelegate.swift */; };
 		2CCF2965279997C100810998 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCF2964279997C100810998 /* ViewController.swift */; };
@@ -16,6 +25,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2C35E78327A95F810040C99E /* RefeicaoDao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefeicaoDao.swift; sourceTree = "<group>"; };
+		2C35E78527A96FD30040C99E /* itemDao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = itemDao.swift; sourceTree = "<group>"; };
+		2C3892FA279EEC030060B5AA /* RefeicoesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefeicoesTableViewController.swift; sourceTree = "<group>"; };
+		2C56016B27A2C38A0031087A /* AdicionarItensViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdicionarItensViewController.swift; sourceTree = "<group>"; };
+		2C56016C27A2C38A0031087A /* AdicionarItensViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AdicionarItensViewController.xib; sourceTree = "<group>"; };
+		2C57D36E279CAAE700F4C583 /* Refeicao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Refeicao.swift; sourceTree = "<group>"; };
+		2C57D370279CAC1300F4C583 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		2C9A556527A4643E004D8B45 /* Alerta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alerta.swift; sourceTree = "<group>"; };
+		2C9C1DB627A817DB002F9B8C /* RemoveRefeicaoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveRefeicaoViewController.swift; sourceTree = "<group>"; };
 		2CCF295D279997C100810998 /* eggplant-brownie1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "eggplant-brownie1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CCF2960279997C100810998 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2CCF2962279997C100810998 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +42,7 @@
 		2CCF2969279997C200810998 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2CCF296C279997C200810998 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2CCF296E279997C200810998 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CD4D201279B1526009CD869 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = MyPlayground.playground; path = ../../MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +56,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2C57D372279CAD0700F4C583 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2C57D370279CAC1300F4C583 /* Item.swift */,
+				2C57D36E279CAAE700F4C583 /* Refeicao.swift */,
+				2C9A556527A4643E004D8B45 /* Alerta.swift */,
+				2C35E78327A95F810040C99E /* RefeicaoDao.swift */,
+				2C35E78527A96FD30040C99E /* itemDao.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2C57D373279CAD3300F4C583 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2C56016B27A2C38A0031087A /* AdicionarItensViewController.swift */,
+				2CCF2964279997C100810998 /* ViewController.swift */,
+				2C3892FA279EEC030060B5AA /* RefeicoesTableViewController.swift */,
+				2C9C1DB627A817DB002F9B8C /* RemoveRefeicaoViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		2C57D374279CAD9500F4C583 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2CCF2966279997C100810998 /* Main.storyboard */,
+				2C56016C27A2C38A0031087A /* AdicionarItensViewController.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		2CCF2954279997C100810998 = {
 			isa = PBXGroup;
 			children = (
@@ -56,11 +107,13 @@
 		2CCF295F279997C100810998 /* eggplant-brownie1 */ = {
 			isa = PBXGroup;
 			children = (
+				2C57D372279CAD0700F4C583 /* Models */,
+				2C57D374279CAD9500F4C583 /* Views */,
+				2C57D373279CAD3300F4C583 /* Controllers */,
 				2CCF2960279997C100810998 /* AppDelegate.swift */,
 				2CCF2962279997C100810998 /* SceneDelegate.swift */,
-				2CCF2964279997C100810998 /* ViewController.swift */,
-				2CCF2966279997C100810998 /* Main.storyboard */,
 				2CCF2969279997C200810998 /* Assets.xcassets */,
+				2CD4D201279B1526009CD869 /* MyPlayground.playground */,
 				2CCF296B279997C200810998 /* LaunchScreen.storyboard */,
 				2CCF296E279997C200810998 /* Info.plist */,
 			);
@@ -127,6 +180,7 @@
 			files = (
 				2CCF296D279997C200810998 /* LaunchScreen.storyboard in Resources */,
 				2CCF296A279997C200810998 /* Assets.xcassets in Resources */,
+				2C56016E27A2C38A0031087A /* AdicionarItensViewController.xib in Resources */,
 				2CCF2968279997C100810998 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,9 +192,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C9A556627A4643E004D8B45 /* Alerta.swift in Sources */,
+				2C35E78627A96FD30040C99E /* itemDao.swift in Sources */,
+				2C57D371279CAC1300F4C583 /* Item.swift in Sources */,
 				2CCF2965279997C100810998 /* ViewController.swift in Sources */,
+				2C9C1DB727A817DB002F9B8C /* RemoveRefeicaoViewController.swift in Sources */,
+				2C35E78427A95F810040C99E /* RefeicaoDao.swift in Sources */,
+				2C56016D27A2C38A0031087A /* AdicionarItensViewController.swift in Sources */,
 				2CCF2961279997C100810998 /* AppDelegate.swift in Sources */,
+				2C3892FB279EEC030060B5AA /* RefeicoesTableViewController.swift in Sources */,
 				2CCF2963279997C100810998 /* SceneDelegate.swift in Sources */,
+				2C57D36F279CAAE700F4C583 /* Refeicao.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
